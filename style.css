@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    gap: 5in;
+    margin: auto auto;
+}
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #d4d4d4;
+    font-size: 0.2in;
+}
+
+.container {
+    margin: auto auto;
+    padding-left: auto;
+    display: block;
+}

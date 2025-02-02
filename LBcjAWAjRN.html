@@ -195,8 +195,7 @@
                     audio.src = track;
                     audio.load();
                     playAudio();
-                    document.title = title; // Change the title to the track name
-                    // Optionally, change the album cover based on the track
+                    document.title = title;
                     albumCover.src = "sound/covers/" + title.toLowerCase().replace(" ", "_") + "_cover.png"; // Example: track1_cover.jpg
                 }
 

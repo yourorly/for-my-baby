@@ -25,16 +25,6 @@ const x = setInterval(async function() {
     document.getElementById("hours").innerHTML = "<p class='h2'>"+hours+"</p>";
     document.getElementById("minutes").innerHTML = "<p class='h2'>"+minutes+"</p>";
     document.getElementById("seconds").innerHTML = "<p class='h2'>"+seconds+"</p>";
-
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("days").innerHTML = "0";
-        document.getElementById("hours").innerHTML = "0";
-        document.getElementById("minutes").innerHTML = "0";
-        document.getElementById("seconds").innerHTML = "0";
-        await delay(3000);
-        window.location.href = "m0I4ycyYEP.html";
-    }
 }, 1000);
 
 

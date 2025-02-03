@@ -7,7 +7,7 @@ const x = setInterval(async function() {
     const now = new Date();
         const currentYear = now.getFullYear();
         const currentMonth = now.getMonth();
-        const targetDate = new Date(currentYear, currentMonth, 15); // 15th of the current month
+        const targetDate = new Date(currentYear, currentMonth, 21); // 15th of the current month
 
         // If the target date has already passed this month, set it to next month
         if (now > targetDate) {

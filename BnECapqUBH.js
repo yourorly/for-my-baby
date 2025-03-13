@@ -1,4 +1,4 @@
-const countdownDate = new Date("March 21, 2025 00:00:00").getTime();
+const countdownDate = new Date("June 21, 2025 00:00:00").getTime();
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
